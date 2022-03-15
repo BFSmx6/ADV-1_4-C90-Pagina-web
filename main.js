@@ -12,13 +12,13 @@ rover_x = 10;
 rover_y = 10;
 
 function add() {
-	background_imgTag = new Image(); //defining a variable with a new image
-	background_imgTag.onload = uploadBackground; // setting a function, onloading this variable
-	background_imgTag.src = background_image;   // load image
+	background_imgTag = new Image(); //define una variable con una nueva imagen
+	background_imgTag.onload = uploadBackground; // establece una función, descargando esta variable
+	background_imgTag.src = background_image;   // carga la imagen
 
-	rover_imgTag = new Image(); //defining a variable with a new image
-	rover_imgTag.onload = uploadrover; // setting a function, onloading this variable
-	rover_imgTag.src = rover_image;   // load image
+	rover_imgTag = new Image(); //define una variable con una nueva imagen
+	rover_imgTag.onload = uploadrover; //establece una función, descargando esta variable
+	rover_imgTag.src = rover_image;   // carga la imagen
 }
 
 function uploadBackground() {
